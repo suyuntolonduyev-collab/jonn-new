@@ -6,6 +6,37 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header class="py-5">
+      <div class="max-w-[950px] mx-auto px-4 flex flex-col items-end">
+        <button class="w-[30px] h-[30px] mb-5 md:hidden">
+          <svg
+            width="30"
+            height="20"
+            viewBox="0 0 30 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0.800049H30" stroke="#21243D" stroke-width="1.6" />
+            <path d="M0 9.80005H30" stroke="#21243D" stroke-width="1.6" />
+            <path d="M0 18.8H30" stroke="#21243D" stroke-width="1.6" />
+          </svg>
+        </button>
+        <nav class="hidden w-full bg-slate-100 py-4 md:block md:bg-white">
+          <ul
+            class="flex flex-col justify-center items-center gap-4 md:flex-row md:justify-end md:gap-6"
+          >
+            <li>
+              <a class="font-bold md:text-lg" href="#">work</a>
+            </li>
+            <li>
+              <a class="font-bold md:text-lg" href="#">blog</a>
+            </li>
+            <li>
+              <a class="font-bold md:text-lg" href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
